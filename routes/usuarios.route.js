@@ -8,7 +8,7 @@ const {
     usuariosPut,
     usuariosPatch,
     usuariosDelete
-} = require('../controllers/usuarios');
+} = require('../controllers/usuarios.contoller');
 const { esRoleValido, emailExiste, existeUsuarioPorId } = require('../helpers/db-validators');
 
 router.get('/', usuariosGet);

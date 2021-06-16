@@ -23,4 +23,5 @@ const tieneRole = (...roles) => {
         next();
     }
 }
+
 module.exports = { esAdminRole, tieneRole }
